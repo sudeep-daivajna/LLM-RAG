@@ -1,0 +1,49 @@
+# ---- Python bytecode / cache ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+
+# ---- Packaging / build artifacts ----
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- Test / coverage ----
+.pytest_cache/
+.coverage*
+htmlcov/
+.tox/
+.nox/
+
+# ---- Type checkers / linters ----
+.mypy_cache/
+.ruff_cache/
+.pyright/
+.pylint.d/
+
+
+# ---- Logs / temp ----
+*.log
+*.tmp
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+
+# ---- Editors ----
+.vscode/
+.idea/
+
+# ---- Secrets (add your own files) ----
+.env
+.env.*
+*.pem
+*.key
+
+
